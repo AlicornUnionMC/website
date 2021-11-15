@@ -1,0 +1,77 @@
+@keyframes modx1 {
+  0% {
+    transform: translate(0, 0);
+    background: aqua;
+  }
+
+  60% {
+    transform: translate(0, 200px);
+    background: red;
+  }
+
+  100% {
+    transform: translate(200px, 200px);
+    background: transparent;
+  }
+}
+
+@keyframes modx2 {
+  0% {
+    transform: translate(0, -60px);
+    background: aqua;
+  }
+
+  25% {
+    transform: translate(120px, -60px);
+    background: aqua;
+  }
+
+  100% {
+    transform: translate(120px, 140px);
+    background: yellowgreen;
+  }
+}
+
+@keyframes modx3 {
+  0% {
+    transform: translate(0, -120px);
+    background: aqua;
+  }
+
+  25% {
+    transform: translate(240px, -120px);
+    background: aqua;
+  }
+
+  60% {
+    transform: translate(240px, 80px);
+    background: red;
+  }
+  100% {
+    transform: translate(440px, 80px);
+    background: transparent;
+  }
+}
+
+.modx1 {
+  animation: modx1 2s infinite;
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.modx2 {
+  transform: translate(0, -60px);
+  animation: modx2 2s infinite;
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.modx3 {
+  transform: translate(0, -120px);
+  animation: modx3 2s infinite;
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+}

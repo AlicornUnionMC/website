@@ -13,7 +13,79 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+.right .title {
+  text-align: right;
+}
+
+.left .title {
+  text-align: left;
+}
+
+.title {
+  position: relative;
+}
+
+.right,
+.left {
+  margin-top: 10em;
+}
+
+.main h1 {
+  position: relative;
+}
+
+.main img,
+.main .imglike {
+  position: absolute;
+}
+
+.left img {
+  transform: translate(2em, 0.5em);
+  box-shadow: -5px 8px 8px #aaaaaa;
+}
+.left .imglike {
+  transform: translate(5em, 0.5em);
+  box-shadow: -5px 8px 8px #aaaaaa;
+  text-align: left;
+}
+
+.imglike {
+  font-size: 0.6em;
+  box-shadow: none !important;
+  white-space: nowrap;
+  width: 744px;
+  height: 400px;
+}
+
+.right img {
+  transform: translate(-13.5em, 0.5em);
+  box-shadow: 5px 8px 8px #aaaaaa;
+}
+
+.right .imglike {
+  transform: translate(-22.5em, 0.5em);
+  box-shadow: 5px 8px 8px #aaaaaa;
+  text-align: right;
+}
+
+.first {
+  margin-top: 2em !important;
+  margin-bottom: 15em;
+}
+
+.description a {
+  color: #df307f;
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+.left .description {
+  float: left;
+}
+.right .description {
+  float: right;
 }
 
 .footer {
@@ -46,14 +118,10 @@
   font-size: 4rem;
 }
 
-.title,
-.description {
-  text-align: center;
-}
-
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  max-width: 50%;
 }
 
 .code {
@@ -115,4 +183,11 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.facts {
+  font-size: 4em;
+  transform: translateX(5rem);
+  position: absolute;
+  color: gray;
 }

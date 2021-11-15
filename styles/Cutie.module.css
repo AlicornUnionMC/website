@@ -1,0 +1,69 @@
+@keyframes data1 {
+  0% {
+    transform: translate(-60px, -155px);
+  }
+
+  50% {
+    transform: translate(145px, -155px);
+  }
+  100% {
+    transform: translate(-60px, -155px);
+  }
+}
+
+@keyframes data2 {
+  0% {
+    transform: translate(-60px, -165px);
+  }
+  20% {
+    transform: translate(45px, -45px);
+  }
+  80% {
+    transform: translate(45px, -45px);
+  }
+  100% {
+    transform: translate(140px, -165px);
+  }
+}
+
+.client1,
+.client2,
+.server {
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+  z-index: 9;
+}
+
+.client1 {
+  transform: translate(-100px, 0);
+  background-color: royalblue;
+}
+
+.client2 {
+  transform: translate(100px, -60px);
+  background-color: violet;
+}
+
+.server {
+  transform: translate(0, 0);
+  background-color: orange;
+}
+
+.data1,
+.data2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: yellowgreen;
+  z-index: -1;
+}
+
+.data1 {
+  animation: data1 1.5s infinite linear;
+}
+
+.data2 {
+  animation: data2 5s infinite linear;
+  animation-direction: alternate;
+}
