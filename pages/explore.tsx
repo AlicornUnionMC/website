@@ -81,14 +81,15 @@ const Explore: NextPage = () => {
           </p>
         </span>
 
-        <span className={styles.right}>
+        <span className={styles.left}>
           <h1 className={styles.title}>
+            超多主题，任你选。
             <img
               alt="Alicorn Appearence"
               src="https://img.gejiba.com/images/625c7a4fd21b10eacf62e93264947ccb.png"
               height="400"
               style={{
-                transform: "translate(-13.5em, -1em)",
+                transform: "translate(3em, -1em)",
               }}
               onMouseEnter={showImg}
               onMouseLeave={backImg}
@@ -98,7 +99,7 @@ const Explore: NextPage = () => {
               src="https://img.gejiba.com/images/0b1aa30d172583efa86ae2236a0914ad.png"
               height="400"
               style={{
-                transform: "translate(-14.5em, -0.5em)",
+                transform: "translate(4em, -0.5em)",
               }}
               onMouseEnter={showImg}
               onMouseLeave={backImg}
@@ -108,7 +109,7 @@ const Explore: NextPage = () => {
               src="https://img.gejiba.com/images/48d826f25dd85707a84e80d086382caf.png"
               height="400"
               style={{
-                transform: "translate(-15.5em, 0em)",
+                transform: "translate(5em, 0em)",
               }}
               onMouseEnter={showImg}
               onMouseLeave={backImg}
@@ -118,7 +119,7 @@ const Explore: NextPage = () => {
               src="https://img.gejiba.com/images/295042e3e90a85efc563ec797b9c53c7.png"
               height="400"
               style={{
-                transform: "translate(-16.5em, 0.5em)",
+                transform: "translate(6em, 0.5em)",
               }}
               onMouseEnter={showImg}
               onMouseLeave={backImg}
@@ -128,7 +129,7 @@ const Explore: NextPage = () => {
               src="https://img.gejiba.com/images/a92d448d932330b7cfe823aa6e4a4410.png"
               height="400"
               style={{
-                transform: "translate(-17.5em, 1em)",
+                transform: "translate(7em, 1em)",
               }}
               onMouseEnter={showImg}
               onMouseLeave={backImg}
@@ -138,12 +139,11 @@ const Explore: NextPage = () => {
               src="https://img.gejiba.com/images/536f95159ca3344927693f5d9c632b79.png"
               height="400"
               style={{
-                transform: "translate(-18.5em, 1.5em)",
+                transform: "translate(8em, 1.5em)",
               }}
               onMouseEnter={showImg}
               onMouseLeave={backImg}
             />
-            超多主题配色，任你选。
           </h1>
           <p className={styles.description}>
             基于 Material UI 的颜色系统，Alicorn 提供了
@@ -214,14 +214,14 @@ const Explore: NextPage = () => {
           </p>
         </span>
 
-        <span className={styles.right}>
+        <span className={styles.left}>
           <h1 className={styles.title}>
+            安全保护，不怕误操作。
             <img
               alt="Alicorn Appearence"
               src="https://img.gejiba.com/images/270845f0072f67b0e1cbcc61a4b97196.png"
               height="400"
             />
-            安全保护，不怕误操作。
           </h1>
           <p className={styles.description}>
             对于大多数操作，Alicorn 都设有
@@ -312,14 +312,14 @@ const Explore: NextPage = () => {
             </a>
           </p>
         </span>
-        <span className={styles.right}>
+        <span className={styles.left}>
           <h1 className={styles.title}>
+            使用 Pff 管理和安装 Mod。
             <img
               alt="Alicorn Tech"
               src="https://img.gejiba.com/images/7e51e3016e1a6f9d0aff9c37607262e6.png"
               height="400"
             />
-            使用 Pff 管理和安装 Mod。
           </h1>
           <p className={styles.description}>
             <code>
@@ -436,8 +436,9 @@ const Explore: NextPage = () => {
           </p>
         </span>
 
-        <span className={styles.right}>
+        <span className={styles.left}>
           <h1 className={styles.title}>
+            链接，链接，符号链接。
             <span
               className={styles.imglike}
               style={{
@@ -463,7 +464,6 @@ const Explore: NextPage = () => {
               </span>
               <br />
             </span>
-            链接，链接，符号链接。
           </h1>
           <p className={styles.description}>
             <span className={styles.pink}>ASC 文件共享</span>容器是 Alicorn
