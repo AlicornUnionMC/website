@@ -104,10 +104,10 @@ const Home: NextPage = () => {
             </div>
           </Link>
 
-          <Link href="/guide" passHref>
+          <Link href="/faq" passHref>
             <div className={styles.card}>
-              <h2 className={styles.pink}>指南 Guide &rarr;</h2>
-              <p>通过几个简单的例子在几分钟内学会使用 Alicorn</p>
+              <h2 className={styles.pink}>常问问题 FAQ &rarr;</h2>
+              <p>有什么毛病？可以在这里解决。</p>
             </div>
           </Link>
 
