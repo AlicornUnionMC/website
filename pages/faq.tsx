@@ -41,15 +41,6 @@ const FAQ: NextPage = () => {
         <p className={styles.answer}>
           A：请<i>直接启动游戏</i>，启动过程中我们将视情况向你询问凭据。
         </p>
-
-        <p className={styles.question}>Q：我不会使用 Alicorn！看上去好麻烦！</p>
-        <p className={styles.answer}>
-          A：Alicorn 的左下角（或右下角）有助理的头像，<i>单击头像</i>（或者按
-          Enter）即可呼叫助理。这是 Alicorn 最强大的地方。
-          <br />
-          你可以直接向助理键入你的需求，比如（不含引号）：「安装 1.17.1 和
-          Forge」、「更换皮肤」等。
-        </p>
       </main>
     </div>
   );
