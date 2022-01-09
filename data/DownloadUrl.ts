@@ -1,7 +1,7 @@
 const DOWNLOAD_WIN32 =
-  "https://hub.fastgit.org/Andy-K-Sparklight/AlicornBinaries/releases/download/latest/Alicorn-win32-x64.zip";
+  "https://pan.bilnn.com/api/v3/file/sourcejump/XrdqJ2Cd/iKqEGVS_QfpHV-CZy3BClfcBgbkeJ_wBiGrj_bKXWFo*";
 const DOWNLOAD_GNU =
-  "https://hub.fastgit.org/Andy-K-Sparklight/AlicornBinaries/releases/download/latest/Alicorn-linux-x64.tar.gz";
+  "https://pan.bilnn.com/api/v3/file/sourcejump/bmBGMxUY/0UKyK_UKVM1jZJQcRioYhl-iG9GjEu9_Dci7Or1DWzQ*";
 
 export const getUrl = () => {
   if (navigator.userAgent.toLowerCase().includes("win")) {
