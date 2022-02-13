@@ -1,7 +1,7 @@
 const DOWNLOAD_WIN32 =
-  "https://pan.bilnn.com/api/v3/file/sourcejump/qdB3LYUd/XtmaP9eXzHV6noKJln5bKK3Gy_3HbSec5lxXSk94acQ*";
+  "https://pan.bilnn.com/api/v3/file/sourcejump/6WrxyMSg/ZDxFAo_87LLl2TCH2866jhCaeqz0iC2YTWmQnoSU6rs*";
 const DOWNLOAD_GNU =
-  "https://pan.bilnn.com/api/v3/file/sourcejump/nOKDWnHe/C5rosDc14k1hwxK3S9T5Hs3IYvm_rJ8wz5u_KQVrLKA*";
+  "https://pan.bilnn.com/api/v3/file/sourcejump/pm5P9mcw/PFwf-mI9lHcX4np8wipsTbcZiZz054kE5rKQ-P8QlO0*";
 
 export const getUrl = () => {
   if (navigator.userAgent.toLowerCase().includes("win")) {
